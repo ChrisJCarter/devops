@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'cjc-devops'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_7f4f4616f5944e589478979acb898645 }}
+        publish-profile: ${{ secrets.AZURE_CREDENTIALS }}
         package: ${{env.DOTNET_ROOT}}/myapp 
